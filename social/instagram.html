@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Share your favorite hippo moments on HippoPics - The social network for hippo enthusiasts">
+    <meta name="keywords" content="hippo photos, hippopotamus, social media, animal photography">
+    <title>HippoPics - Share Your Hippo Moments</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hippo-bg {
+            background: linear-gradient(120deg, #e0f4ff 0%, #b8e7ff 100%);
+        }
+        .hippo-shape {
+            width: 80px;
+            height: 50px;
+            background: #4a5568;
+            border-radius: 40px 40px 0 0;
+            position: relative;
+            animation: float 3s ease-in-out infinite;
+        }
+        .hippo-shape::before {
+            content: '';
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background: #fff;
+            border-radius: 50%;
+            top: 15px;
+            right: 15px;
+        }
+        .post-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .post-card {
+            transition: transform 0.2s;
+        }
+        .post-card:hover {
+            transform: translateY(-5px);
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body class="hippo-bg min-h-screen flex flex-col">
+    <header class="bg-blue-900 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3">
+            <nav class="flex items-center justify-between">
+                <div class="flex items-center space-x-4">
+                    <div class="hippo-shape"></div>
+                    <a href="/generated-website-1734204208197/" class="text-2xl font-bold">HippoPics</a>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="/generated-website-1734204208197/explore.html" class="hover:text-blue-200">Explore</a>
+                    <a href="/generated-website-1734204208197/trending.html" class="hover:text-blue-200">Trending</a>
+                    <a href="/generated-website-1734204208197/upload.html" class="hover:text-blue-200">Upload</a>
+                    <a href="/generated-website-1734204208197/profile.html" class="hover:text-blue-200">Profile</a>
+                </div>
+                <button class="md:hidden text-white">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-8">
+            <h1 class="text-3xl font-bold text-gray-800 mb-6">Share Your Hippo Moments</h1>
+            <div class="flex items-center mb-8">
+                <form method="GET" action="/generated-website-1734204208197/search" class="flex-grow">
+                    <input type="text" placeholder="Search hippo posts..." class="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:border-blue-500">
+                </form>
+            </div>
+            
+            <div class="post-grid">
+                <div class="post-card bg-gray-50 rounded-lg overflow-hidden shadow-md">
+                    <div class="h-48 bg-gray-300"></div>
+                    <div class="p-4">
+                        <h3 class="font-bold">Happy Hippo at Sunset</h3>
+                        <p class="text-sm text-gray-600">Posted by @hippolover</p>
+                        <div class="mt-2 flex items-center space-x-4">
+                            <span>❤️ 1.2k</span>
+                            <span>💬 234</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-card bg-gray-50 rounded-lg overflow-hidden shadow-md">
+                    <div class="h-48 bg-gray-300"></div>
+                    <div class="p-4">
+                        <h3 class="font-bold">Baby Hippo's First Swim</h3>
+                        <p class="text-sm text-gray-600">Posted by @safariguide</p>
+                        <div class="mt-2 flex items-center space-x-4">
+                            <span>❤️ 3.4k</span>
+                            <span>💬 567</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-card bg-gray-50 rounded-lg overflow-hidden shadow-md">
+                    <div class="h-48 bg-gray-300"></div>
+                    <div class="p-4">
+                        <h3 class="font-bold">Hippo Pool Party</h3>
+                        <p class="text-sm text-gray-600">Posted by @wildlifepro</p>
+                        <div class="mt-2 flex items-center space-x-4">
+                            <span>❤️ 2.8k</span>
+                            <span>💬 345</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-blue-900 text-white mt-auto">
+        <div class="container mx-auto px-4 py-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="font-bold mb-4">About HippoPics</h3>
+                    <p class="text-sm">Share and discover amazing hippo moments with our global community</p>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/generated-website-1734204208197/about.html" class="hover:text-blue-200">About Us</a></li>
+                        <li><a href="/generated-website-1734204208197/guidelines.html" class="hover:text-blue-200">Community Guidelines</a></li>
+                        <li><a href="/generated-website-1734204208197/privacy.html" class="hover:text-blue-200">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="/generated-website-1734204208197/social/twitter.html" class="hover:text-blue-200">Twitter</a>
+                        <a href="/generated-website-1734204208197/social/facebook.html" class="hover:text-blue-200">Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

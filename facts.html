@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fascinating Hippo Facts - HippoPics</title>
+    <meta name="description" content="Discover amazing hippopotamus facts, from their incredible swimming abilities to their unique social behaviors. Learn everything about these magnificent creatures!">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hippo-bg {
+            background: linear-gradient(120deg, #e0f4ff 0%, #b8e7ff 100%);
+        }
+        .hippo-shape {
+            width: 80px;
+            height: 50px;
+            background: #4a5568;
+            border-radius: 40px 40px 0 0;
+            position: relative;
+            animation: float 3s ease-in-out infinite;
+        }
+        .hippo-shape::before {
+            content: '';
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background: #fff;
+            border-radius: 50%;
+            top: 15px;
+            right: 15px;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        .fact-card {
+            transition: transform 0.3s ease;
+        }
+        .fact-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="hippo-bg min-h-screen flex flex-col">
+    <header class="bg-blue-900 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3">
+            <nav class="flex items-center justify-between">
+                <div class="flex items-center space-x-4">
+                    <div class="hippo-shape"></div>
+                    <a href="/generated-website-1734204208197/" class="text-2xl font-bold">HippoPics</a>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="/generated-website-1734204208197/gallery.html" class="hover:text-blue-200">Gallery</a>
+                    <a href="/generated-website-1734204208197/daily.html" class="hover:text-blue-200">Daily Hippo</a>
+                    <a href="/generated-website-1734204208197/facts.html" class="hover:text-blue-200">Hippo Facts</a>
+                    <a href="/generated-website-1734204208197/submit.html" class="hover:text-blue-200">Submit</a>
+                </div>
+                <button class="md:hidden text-white">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <div class="bg-white rounded-lg shadow-lg p-6">
+            <h1 class="text-3xl font-bold text-gray-800 mb-6">Fascinating Hippo Facts</h1>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="fact-card bg-blue-50 rounded-lg p-6 shadow-md">
+                    <h2 class="text-xl font-bold text-blue-900 mb-3">Swimming Experts</h2>
+                    <p class="text-gray-700">Despite weighing up to 3,000 kg, hippos can swim at speeds of up to 8 km/h and can hold their breath underwater for up to 5 minutes!</p>
+                </div>
+
+                <div class="fact-card bg-blue-50 rounded-lg p-6 shadow-md">
+                    <h2 class="text-xl font-bold text-blue-900 mb-3">Unique Diet</h2>
+                    <p class="text-gray-700">Hippos can consume up to 40 kg of grass in a single night! They're herbivores who prefer to graze during the cooler evening hours.</p>
+                </div>
+
+                <div class="fact-card bg-blue-50 rounded-lg p-6 shadow-md">
+                    <h2 class="text-xl font-bold text-blue-900 mb-3">Natural Sunscreen</h2>
+                    <p class="text-gray-700">Hippos secrete a red-colored substance that acts as a natural sunscreen and antiseptic, protecting their sensitive skin.</p>
+                </div>
+
+                <div class="fact-card bg-blue-50 rounded-lg p-6 shadow-md">
+                    <h2 class="text-xl font-bold text-blue-900 mb-3">Social Structure</h2>
+                    <p class="text-gray-700">Hippos live in groups called pods, usually consisting of 10-20 individuals led by a dominant male.</p>
+                </div>
+
+                <div class="fact-card bg-blue-50 rounded-lg p-6 shadow-md">
+                    <h2 class="text-xl font-bold text-blue-900 mb-3">Impressive Teeth</h2>
+                    <p class="text-gray-700">Their canine teeth can grow up to 50 cm long and continue growing throughout their lifetime!</p>
+                </div>
+
+                <div class="fact-card bg-blue-50 rounded-lg p-6 shadow-md">
+                    <h2 class="text-xl font-bold text-blue-900 mb-3">Amphibious Life</h2>
+                    <p class="text-gray-700">Hippos spend up to 16 hours a day in the water to keep cool and protect their sensitive skin from the sun.</p>
+                </div>
+            </div>
+
+            <div class="mt-8 text-center">
+                <a href="/generated-website-1734204208197/facts/advanced.html" class="inline-block bg-blue-900 text-white px-6 py-3 rounded-lg hover:bg-blue-800 transition-colors">
+                    Discover More Advanced Hippo Facts →
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-blue-900 text-white mt-auto">
+        <div class="container mx-auto px-4 py-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="font-bold mb-4">About HippoPics</h3>
+                    <p class="text-sm">Celebrating the majesty of hippopotamuses since 2024</p>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/generated-website-1734204208197/about.html" class="hover:text-blue-200">About Us</a></li>
+                        <li><a href="/generated-website-1734204208197/contact.html" class="hover:text-blue-200">Contact</a></li>
+                        <li><a href="/generated-website-1734204208197/privacy.html" class="hover:text-blue-200">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="/generated-website-1734204208197/social/twitter.html" class="hover:text-blue-200">Twitter</a>
+                        <a href="/generated-website-1734204208197/social/instagram.html" class="hover:text-blue-200">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

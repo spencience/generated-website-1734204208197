@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the world's largest collection of hippopotamus photos, facts, and daily updates. Join our community of hippo enthusiasts!">
+    <meta name="keywords" content="hippopotamus, hippo pictures, hippo facts, wildlife photography, hippo gallery">
+    <title>HippoPics - Your Daily Dose of Hippo Joy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hippo-bg {
+            background: linear-gradient(120deg, #e0f4ff 0%, #b8e7ff 100%);
+        }
+        .hippo-shape {
+            width: 80px;
+            height: 50px;
+            background: #4a5568;
+            border-radius: 40px 40px 0 0;
+            position: relative;
+            animation: float 3s ease-in-out infinite;
+        }
+        .hippo-shape::before {
+            content: '';
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background: #fff;
+            border-radius: 50%;
+            top: 15px;
+            right: 15px;
+        }
+        .hippo-card {
+            transition: transform 0.3s ease;
+        }
+        .hippo-card:hover {
+            transform: translateY(-5px);
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body class="hippo-bg min-h-screen flex flex-col">
+    <header class="bg-blue-900 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3">
+            <nav class="flex items-center justify-between">
+                <div class="flex items-center space-x-4">
+                    <div class="hippo-shape"></div>
+                    <a href="/generated-website-1734204208197/" class="text-2xl font-bold">HippoPics</a>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="/generated-website-1734204208197/gallery.html" class="hover:text-blue-200">Gallery</a>
+                    <a href="/generated-website-1734204208197/daily.html" class="hover:text-blue-200">Daily Hippo</a>
+                    <a href="/generated-website-1734204208197/facts.html" class="hover:text-blue-200">Hippo Facts</a>
+                    <a href="/generated-website-1734204208197/submit.html" class="hover:text-blue-200">Submit</a>
+                </div>
+                <button class="md:hidden text-white">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h1 class="text-3xl font-bold text-gray-800 mb-6">Welcome to HippoPics</h1>
+                <p class="text-gray-600 mb-4">Your premier destination for the most delightful hippopotamus photographs and content on the web!</p>
+                <div class="bg-blue-50 p-4 rounded-lg">
+                    <h2 class="text-xl font-semibold text-blue-900 mb-2">🌟 Today's Featured Hippo</h2>
+                    <p class="text-gray-700">Meet Herbert, our gentle giant from the Zambezi River! Known for his playful splashes and morning yawns.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Quick Stats</h2>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-blue-50 p-4 rounded-lg text-center">
+                        <span class="block text-2xl font-bold text-blue-900">5,000+</span>
+                        <span class="text-gray-600">Hippo Photos</span>
+                    </div>
+                    <div class="bg-blue-50 p-4 rounded-lg text-center">
+                        <span class="block text-2xl font-bold text-blue-900">50k+</span>
+                        <span class="text-gray-600">Community Members</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <a href="/generated-website-1734204208197/gallery/latest.html" class="hippo-card bg-white rounded-lg shadow-lg p-6 hover:shadow-xl">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Latest Uploads</h3>
+                <p class="text-gray-600">Check out the newest additions to our hippo collection</p>
+            </a>
+            <a href="/generated-website-1734204208197/community.html" class="hippo-card bg-white rounded-lg shadow-lg p-6 hover:shadow-xl">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Community Spotlight</h3>
+                <p class="text-gray-600">See featured photographers and their amazing hippo shots</p>
+            </a>
+            <a href="/generated-website-1734204208197/conservation.html" class="hippo-card bg-white rounded-lg shadow-lg p-6 hover:shadow-xl">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Conservation Corner</h3>
+                <p class="text-gray-600">Learn about hippo conservation efforts worldwide</p>
+            </a>
+        </div>
+    </main>
+
+    <footer class="bg-blue-900 text-white mt-auto">
+        <div class="container mx-auto px-4 py-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="font-bold mb-4">About HippoPics</h3>
+                    <p class="text-sm">Celebrating the majesty of hippopotamuses since 2024</p>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="/generated-website-1734204208197/about.html" class="hover:text-blue-200">About Us</a></li>
+                        <li><a href="/generated-website-1734204208197/contact.html" class="hover:text-blue-200">Contact</a></li>
+                        <li><a href="/generated-website-1734204208197/privacy.html" class="hover:text-blue-200">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold mb-4">Connect</h3>
+                    <div class="flex space-x-4">
+                        <a href="/generated-website-1734204208197/social/twitter.html" class="hover:text-blue-200">Twitter</a>
+                        <a href="/generated-website-1734204208197/social/instagram.html" class="hover:text-blue-200">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
